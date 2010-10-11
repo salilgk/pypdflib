@@ -5,6 +5,7 @@
 # pypdflib is a pango/cairo framework for generating reports.
 # Copyright © 2010  Santhosh Thottingal <santhosh.thottingal@gmail.com>
 
+# Adding this comment line
 # This file is part of pypdflib.
 #
 # pypdflib is free software: you can redistribute it and/or modify
@@ -44,6 +45,7 @@ class PDFWriter():
         self.ybottom = self.height - self.bottom_margin*2
         self.header=None
         self.footer=None
+        print "This is test line"
         
     def set_header(self, header):
         """
